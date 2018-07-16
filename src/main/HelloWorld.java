@@ -1,15 +1,15 @@
 package main;
 
-import entities.House;
+import entities.TimeSheet;
 
 public class HelloWorld{
 
     public static void main(String []args){
-        House house = new House.Builder().hasCost(1).hasAddress("Washington").hasOwner("Barry O").build();
-        System.out.println(house);
-        System.out.println(house.address);
-        System.out.println(house.cost);
-        System.out.println(house.owner);
+        TimeSheet timeSheet = new TimeSheet.Builder().hasCost(1).hasAddress("Washington").hasOwner("Barry O").build();
+        System.out.println(timeSheet);
+        System.out.println(timeSheet.address);
+        System.out.println(timeSheet.cost);
+        System.out.println(timeSheet.owner);
     }
 }
 
